@@ -4,12 +4,39 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ANNA - Plataforma Educativa em Saúde. Quizzes interativos sobre amamentação, saúde digestiva e saúde feminina." />
+    <meta name="keywords" content="saúde, educação, quiz, amamentação, saúde feminina, nutrição" />
     <title>ANNA - Jogos Educativos de Saúde</title>
-    <script type="module" crossorigin src="/projeto-anna/assets/index-BIxdTDq1.js"></script>
-    <link rel="stylesheet" crossorigin href="/projeto-anna/assets/index-B84uWg5l.css">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #f8fafc;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading state */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      }
+    </style>
+    <script type="module" crossorigin src="/projeto-anna/assets/index-zZwTnXao.js"></script>
+    <link rel="stylesheet" crossorigin href="/projeto-anna/assets/index-M9N6sb1U.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading">
+        <div style="text-align: center;">
+          <div style="font-size: 24px; font-weight: bold; color: #6366f1; margin-bottom: 16px;">ANNA</div>
+          <div style="color: #64748b;">Carregando...</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 
